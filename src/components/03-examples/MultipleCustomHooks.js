@@ -13,7 +13,7 @@ export const MultipleCustomHooks = () => {
   );
   const { author, quote } = !!data && data[0]; //Condición lógica si hay data entonces toma la data[0]
 
-  console.log(author, quote);
+  // console.log(author, quote);
 
   return (
     <div>
